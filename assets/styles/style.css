@@ -1,5 +1,32 @@
-.topnav {
+.header-container {
   background-color: white;
   overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1023px) {
+  .header-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.topnav:nth-child(2) {
+  -ms-flex-line-pack: right;
+      align-content: right;
 }
 /*# sourceMappingURL=style.css.map */

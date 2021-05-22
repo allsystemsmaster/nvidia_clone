@@ -1,6 +1,30 @@
-.topnav{
+.header-container {
   background-color: white;
   overflow: hidden;
+  width: 100%;
+  display: flex;
+
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+  }
 }
 
+.topnav  {
+  @media screen and (max-width: 1023px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 10%;
+}
 
+.topnav:nth-child(1){
+  background-color: yellow;
+}
+
+.topnav:nth-child(2){
+  background-color: green;
+  align-content: right;
+}
