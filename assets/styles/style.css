@@ -6,4 +6,8 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+.demo {
+  background-image: url(./assets/media/nvidia-bg.jpg);
+}
 /*# sourceMappingURL=style.css.map */
