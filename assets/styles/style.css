@@ -71,14 +71,32 @@
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
+  position: relative;
+  text-align: left;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 .gallery {
   color: green;
   background-color: white;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  padding-top: 2%;
+}
+
+#shop {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#box {
+  background-color: transparent;
+  width: 50%;
+  height: 50%;
 }
 /*# sourceMappingURL=style.css.map */
