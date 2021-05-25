@@ -75,6 +75,19 @@
   text-align: left;
 }
 
+.nvidia-title {
+  color: green;
+}
+
+.nvidia-content {
+  color: white;
+}
+
+.save-the-date {
+  color: white;
+  background-color: green;
+}
+
 .top-left {
   position: absolute;
   top: 8px;
