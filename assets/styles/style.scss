@@ -51,15 +51,26 @@
 
 .nvidia-title {
   color: green;
+  width: 70%;
+  font-size: 300%;
+  margin-left: 50px;
 }
 
 .nvidia-content {
   color: white;
+  width: 55%;
+  height: auto;
+  margin-left: 50px;
 }
 
 .save-the-date {
-  color: white;
   background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 5px solid green;
+  width: 17%;
+  height: auto;
+  margin-left: 50px;
 }
 
 .top-left {
@@ -71,15 +82,34 @@
   color: green;
   background-color: white;
   padding-top: 2%;
+  justify-content: center;
+  flex-direction: column;
 }
 
-#shop {
-  height: 400px;
+.shop {
   display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.gaming {
+  display: flex;
+  justify-content: center;
+  height: 400px;
 }
 
-#box {
-  background-color: transparent;
+.latest-news {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.data-center-to-edge {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.box {
   width: 50%;
   height: 50%;
 }
