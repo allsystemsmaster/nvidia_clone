@@ -50,7 +50,7 @@
 }
 
 .nvidia-title {
-  color: green;
+  color: rgb(69, 207, 14);
   width: 70%;
   font-size: 300%;
   margin-left: 50px;
@@ -64,10 +64,10 @@
 }
 
 .save-the-date {
-  background-color: green;
+  background-color: rgb(69, 207, 14);
   color: white;
   border-radius: 5px;
-  border: 5px solid green;
+  border: 5px solid rgb(69, 207, 14);
   width: 17%;
   height: auto;
   margin-left: 50px;
@@ -78,38 +78,63 @@
   top: 8px;
   left: 16px;
 }
+
 .gallery {
-  color: green;
   background-color: white;
   padding-top: 2%;
   justify-content: center;
   flex-direction: column;
 }
 
-.shop {
-  display: flex;
-  justify-content: center;
+.shop-box {
+  background-color: rgb(47, 84, 187);
   height: 400px;
 }
+
+.shop {
+  background-color: rgb(229, 255, 0);
+  color: rgb(69, 207, 14);
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
 .gaming {
+  color: rgb(69, 207, 14);
+  font-size: 50px;
   display: flex;
   justify-content: center;
   height: 400px;
 }
 
 .latest-news {
+  color: rgb(69, 207, 14);
+  font-size: 50px;
   display: flex;
   justify-content: center;
   height: 400px;
 }
 
 .data-center-to-edge {
+  color: rgb(69, 207, 14);
+  font-size: 50px;
   display: flex;
   justify-content: center;
   height: 400px;
 }
 
+.text-green {
+  color: rgb(69, 207, 14);
+  font-size: larger;
+}
+
+.text-content {
+  color: black;
+}
+
 .box {
-  width: 50%;
-  height: 50%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
