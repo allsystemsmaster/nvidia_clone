@@ -87,26 +87,24 @@
 }
 
 .shop-box {
-  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .shop-title {
   color: rgb(69, 207, 14);
   font-size: 50px;
   text-align: center;
-  justify-content: center;
-  height: 50px; 
+  height: 50px;
+  margin: -60px 0 75px 0;
 }
 
 .shop-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  border: solid red;
+  width: 85%;
 }
 
 .gaming-title {
