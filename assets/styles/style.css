@@ -108,6 +108,9 @@
 .gallery {
   background-color: white;
   padding-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -115,6 +118,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
 }
 
 .gallery-box-title {
@@ -237,10 +242,17 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100%;
+  margin: 60px 0 0 0;
 }
 
 .white-title {
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: larger;
+  padding-left: 40px;
+  border-bottom-style: solid;
 }
 
 ul li {
